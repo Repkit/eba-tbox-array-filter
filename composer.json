@@ -1,0 +1,16 @@
+{
+    "name": "eba-libraries/array-filter",
+    "description": "Filter array , using eba standard",
+    "type": "package",
+    "require-dev": {
+        "phpunit/phpunit": "4.8.26"
+    },
+    "autoload": {
+	       "psr-4": {"TBoxArrayFilter\\": "src/TBoxArrayFilter"}
+    },
+    "keywords": [
+        "library",
+        "filter",
+        "array"
+    ]
+}
